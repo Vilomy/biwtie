@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		34F61E362591C2E600817B4F /* Bowtie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataClass.swift"; sourceTree = "<group>"; };
 		34F61E372591C2E600817B4F /* Bowtie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bowtie+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		A59CFE6E217E4128003E5559 /* Bow Ties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bow Ties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59CFE6E217E4128003E5559 /* BowTies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowTies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A59CFE71217E4128003E5559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A59CFE73217E4128003E5559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A59CFE76217E4128003E5559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			children = (
 				34F61E362591C2E600817B4F /* Bowtie+CoreDataClass.swift */,
 				34F61E372591C2E600817B4F /* Bowtie+CoreDataProperties.swift */,
-				A59CFE70217E4128003E5559 /* Bow Ties */,
+				A59CFE70217E4128003E5559 /* BowTies */,
 				A59CFE6F217E4128003E5559 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,12 +56,12 @@
 		A59CFE6F217E4128003E5559 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A59CFE6E217E4128003E5559 /* Bow Ties.app */,
+				A59CFE6E217E4128003E5559 /* BowTies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A59CFE70217E4128003E5559 /* Bow Ties */ = {
+		A59CFE70217E4128003E5559 /* BowTies */ = {
 			isa = PBXGroup;
 			children = (
 				A59CFE71217E4128003E5559 /* AppDelegate.swift */,
@@ -73,15 +73,15 @@
 				A59CFE86217E47A9003E5559 /* SampleData.plist */,
 				A59CFE78217E4128003E5559 /* Bow_Ties.xcdatamodeld */,
 			);
-			path = "Bow Ties";
+			path = BowTies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A59CFE6D217E4128003E5559 /* Bow Ties */ = {
+		A59CFE6D217E4128003E5559 /* BowTies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A59CFE83217E4129003E5559 /* Build configuration list for PBXNativeTarget "Bow Ties" */;
+			buildConfigurationList = A59CFE83217E4129003E5559 /* Build configuration list for PBXNativeTarget "BowTies" */;
 			buildPhases = (
 				A59CFE6A217E4128003E5559 /* Sources */,
 				A59CFE6B217E4128003E5559 /* Frameworks */,
@@ -91,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = "Bow Ties";
+			name = BowTies;
 			productName = "Bow Ties";
-			productReference = A59CFE6E217E4128003E5559 /* Bow Ties.app */;
+			productReference = A59CFE6E217E4128003E5559 /* BowTies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A59CFE69217E4128003E5559 /* Build configuration list for PBXProject "Bow Ties" */;
+			buildConfigurationList = A59CFE69217E4128003E5559 /* Build configuration list for PBXProject "BowTies" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -124,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A59CFE6D217E4128003E5559 /* Bow Ties */,
+				A59CFE6D217E4128003E5559 /* BowTies */,
 			);
 		};
 /* End PBXProject section */
@@ -333,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A59CFE69217E4128003E5559 /* Build configuration list for PBXProject "Bow Ties" */ = {
+		A59CFE69217E4128003E5559 /* Build configuration list for PBXProject "BowTies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A59CFE81217E4129003E5559 /* Debug */,
@@ -342,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A59CFE83217E4129003E5559 /* Build configuration list for PBXNativeTarget "Bow Ties" */ = {
+		A59CFE83217E4129003E5559 /* Build configuration list for PBXNativeTarget "BowTies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A59CFE84217E4129003E5559 /* Debug */,
